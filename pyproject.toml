@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "snowflake"
+version = "0.1.0"
+description = ""
+authors = ["tig0826 <tigcr0826@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^2.0.3"
+snowflake-snowpark-python = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
