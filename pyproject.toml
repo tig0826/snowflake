@@ -9,7 +9,13 @@ readme = "README.md"
 python = ">=3.8,<3.11"
 pandas = "^2.0.3"
 snowflake-snowpark-python = "^1.5.1"
+pyarrow = ">=10.0.1,<10.1.0"
+notebook = "^6.5.4"
+watchdog = "^3.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.24.0"
 
 [build-system]
 requires = ["poetry-core"]
